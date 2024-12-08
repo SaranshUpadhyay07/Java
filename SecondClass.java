@@ -22,5 +22,10 @@ public class SecondClass {
         {
             System.out.println("Either or both of the condition are true");
         }
+        boolean isCar = false;// isCar sirf likhne se inside the if condition is also okk/ !isCar se vo not equal check karega
+        if(isCar == true) {
+            System.out.println("This is not supposed to happen");
+        }
+
     }
 }
