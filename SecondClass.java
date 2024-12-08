@@ -27,5 +27,16 @@ public class SecondClass {
             System.out.println("This is not supposed to happen");
         }
 
+        String makeOfCar = "Volkswagen";
+    boolean isDomestic = makeOfCar == "Volkswagen" ? false : true;
+
+    if(isDomestic){
+        System.out.println("This car is Domestic");
+    }
+
+    int ClientAge =35;
+    String ageText = ClientAge >= 18 ? "Over eighteen" : "Still kid";
+    System.out.println("Our client is " + ageText);
+
     }
 }
