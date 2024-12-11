@@ -15,6 +15,6 @@ public class Challenge1 {
         {
             System.out.println("No remainder");
         }
-        
+
     }
 }
