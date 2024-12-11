@@ -1,3 +1,5 @@
+package Challenge;
+
 public class Challenge {
     public static void main(String[] args) {
         double a = 20.00;
@@ -13,5 +15,9 @@ public class Challenge {
         {
             System.out.println("No remainder");
         }
+
+
+
+        
     }
 }
