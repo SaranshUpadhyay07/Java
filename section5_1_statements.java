@@ -1,4 +1,4 @@
-public class section5_statements {
+public class section5_1_statements {
     public static void main(String[] args) {
         int myvariable = 50;
 
