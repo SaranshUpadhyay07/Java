@@ -1,28 +1,23 @@
 public class section5_4_Method {
     public static void main(String[] args) {
 
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
-        boolean gameOver = true;
+        int highScore = calculateScore(800, 5, 100, true);
+        System.out.println("The high score is "+highScore);
 
-        calculateScore(score, levelCompleted, bonus, gameOver);
-
-        score = 10000;
-        levelCompleted = 8;
-        bonus = 200;
-
-        calculateScore(score, levelCompleted, bonus, gameOver);
+        System.out.println("The next high score is " +
+        calculateScore(10000, 8,  200, true));
     }
 
-    public static void calculateScore(int score, int levelCompleted, int bonus, boolean gameOver) {
+    public static int calculateScore(int score, int levelCompleted, int bonus, boolean gameOver) {
 
         int final_score = score;
 
         if (gameOver) {
             final_score += (levelCompleted * bonus);
             final_score += 1000;
-            System.out.println("Your Final score is " + final_score);
+
         }
+
+        return final_score;
     }
 }
