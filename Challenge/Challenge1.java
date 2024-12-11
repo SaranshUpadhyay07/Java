@@ -1,6 +1,6 @@
 package Challenge;
 
-public class Challenge {
+public class Challenge1 {
     public static void main(String[] args) {
         double a = 20.00;
         double b = 80.00;
@@ -15,9 +15,6 @@ public class Challenge {
         {
             System.out.println("No remainder");
         }
-
-
-
         
     }
 }
