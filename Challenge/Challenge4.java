@@ -1,7 +1,7 @@
 // method overload
 package Challenge;
 
-public class challenge4 {
+public class Challenge4 {
     public static void main(String[] args) {
         System.out.println("The value in centimeters is "+ toCenti(6,11));
         System.out.println("The value in centimeters is "+ toCenti(12));
