@@ -1,4 +1,4 @@
-public class section6_6_ParsingValuesandReadingInput {
+public class section_6_6_ParsingValuesandReadingInput {
     public static void main(String[] args) {
         int current_year = 2024;
         String userDateofBirth = "1999";
