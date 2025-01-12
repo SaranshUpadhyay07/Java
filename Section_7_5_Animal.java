@@ -1,6 +1,6 @@
 public class Section_7_5_Animal {
 
-    private String type;
+    protected String type;
     private String size;
     private double weight;
     public Section_7_5_Animal() {

@@ -23,12 +23,37 @@ public class Section_7_5_Dog extends Section_7_5_Animal{
                 "} " + super.toString();
     }
     public void makeNoise(){
-
+        if(type == "Wolf"){
+            System.out.print("Ow Wooooo! ");
+        }
+        else{
+        bark();}
+        System.out.println();
     }
 
     @Override
     public void move(String speed) {
         super.move(speed);
-        System.out.println("Dogs can walk and run and also wag their tail");
+//        System.out.println("Dogs can walk and run and also wag their tail");
+        if(speed == "Slow"){
+            walk();
+            wagTail();
+        }else{
+            run();
+            bark();
+        }
+        System.out.println();
+    }
+    private void bark(){
+        System.out.print("Woof ");
+    }
+    private void run(){
+        System.out.print("Dog running ");
+    }
+    private void walk(){
+        System.out.print("Dog walking ");
+    }
+    private void wagTail(){
+        System.out.print("Dog wagging tail ");
     }
 }

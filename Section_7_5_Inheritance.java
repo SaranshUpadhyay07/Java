@@ -10,6 +10,11 @@ public class Section_7_5_Inheritance {
         doAnimal(yorkie, "Fast");
         Section_7_5_Dog retriever = new Section_7_5_Dog("Labrador Retriever", 65, "Floppy", "Swimmer");
         doAnimal(retriever, "Slow");
+        Section_7_5_Dog wolf = new Section_7_5_Dog("Wolf", 40);
+        doAnimal(wolf, "Slow");
+
+        Section_7_5_Fish goldie = new Section_7_5_Fish("Goldfish", 0.25, 2,3);
+        doAnimal(goldie, "Fast");
     }
     public static void doAnimal(Section_7_5_Animal animal, String speed) {
         animal.makeNoise();
