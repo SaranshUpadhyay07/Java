@@ -4,8 +4,12 @@ public class Section_7_5_Inheritance {
         doAnimal(animal,"Slow");
 
         Section_7_5_Dog dog = new Section_7_5_Dog();
-        doAnimal(dog,"Slow");
+        doAnimal(dog,"Fast");
 
+        Section_7_5_Dog yorkie = new Section_7_5_Dog("Yorkie", 15);
+        doAnimal(yorkie, "Fast");
+        Section_7_5_Dog retriever = new Section_7_5_Dog("Labrador Retriever", 65, "Floppy", "Swimmer");
+        doAnimal(retriever, "Slow");
     }
     public static void doAnimal(Section_7_5_Animal animal, String speed) {
         animal.makeNoise();
