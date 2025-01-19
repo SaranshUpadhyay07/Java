@@ -5,7 +5,7 @@ public class Section_7_8_String {
         String str = "Hello World";
         System.out.println("index of r is "+ str.indexOf('r'));
         System.out.println("index of l is "+ str.lastIndexOf('l'));
-        
+
     }
     public static void printInformation(String string){
         int length = string.length();
