@@ -6,8 +6,10 @@ public class Section_8_1_Composition {
         MotherBoard theMotherboard = new MotherBoard("BJ-200", "Asus", 4, 6,"v2.44");
         Section_8_1_Computer thePC = new Section_8_1_Computer("2208", "Dell", theCase, theMonitor, theMotherboard);
 
-        thePC.getMonitor().Color(10, 10, "Aqua");// This is composition
-        thePC.getComputerCase().pressPowerButton();
-        thePC.getMotherBoard().loadProgram("Windows Os");
+//        thePC.getMonitor().Color(10, 10, "Aqua");// This is composition
+//        thePC.getComputerCase().pressPowerButton();
+//        thePC.getMotherBoard().loadProgram("Windows Os");
+
+        thePC.powerUp();
     }
 }

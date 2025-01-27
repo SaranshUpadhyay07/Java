@@ -10,15 +10,23 @@ public class Section_8_1_Computer extends Section_8_1_Product{
         this.motherBoard = motherBoard;
     }
 
-    public ComputerCase getComputerCase() {
-        return computerCase;
+    private void drawlogo(){
+        monitor.Color(1200, 50, "yellow");
+    }
+    public void powerUp(){
+        computerCase.pressPowerButton();
+        drawlogo();
     }
 
-    public Monitor getMonitor() {
-        return monitor;
-    }
-
-    public MotherBoard getMotherBoard() {
-        return motherBoard;
-    }
+//    public ComputerCase getComputerCase() {
+//        return computerCase;
+//    }
+//
+//    public Monitor getMonitor() {
+//        return monitor;
+//    }
+//
+//    public MotherBoard getMotherBoard() {
+//        return motherBoard;
+//    }
 }
