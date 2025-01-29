@@ -1,7 +1,26 @@
 public class Player {
-    public String fullname;
-    public int health;
-    public String weapon;
+    private String name;
+    private int health;
+    private String weapon;
+
+    public Player(String name) {
+        this(name, 100, "Sword");
+
+    }
+
+    public Player(String name, int health, String weapon) {
+        this.name = name;
+        if(health<=0){
+            this.health = 1;
+        }
+        else if(health>100){
+            this.health = 100;
+        }
+        else{
+        this.health = health;
+        }
+        this.weapon = weapon;
+    }
 
     public void loseHealth(int damage){
         health -= damage;
