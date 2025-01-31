@@ -1,6 +1,7 @@
 //package Challenge;
 //
-//public class Challlenge17 {
+//public class
+// Challlenge17 {
 //    Refrigerator refrigerator = new Refrigerator(true) ;
 //    DishWasher dishWasher = new DishWasher(true);
 //    CoffeeMaker coffeeMaker = new CoffeeMaker(true);
