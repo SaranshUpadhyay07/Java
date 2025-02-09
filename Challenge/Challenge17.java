@@ -12,7 +12,7 @@
 //}
 package Challenge;
 
-public class Challlenge17 {
+public class Challenge17 {
     public static void main(String[] args) {
         Refrigerator refrigerator = new Refrigerator(true);
         DishWasher dishWasher = new DishWasher(true);
